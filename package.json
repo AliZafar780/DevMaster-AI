@@ -1,0 +1,42 @@
+{
+  "name": "devmaster-ai",
+  "version": "1.0.0",
+  "description": "DevMaster AI - Ultimate all-in-one platform for developers to track progress, manage notes, visualize data, store assets, and leverage AI for productivity",
+  "author": "Ali Zafar",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "db:up": "docker-compose up -d postgres redis mongo",
+    "db:down": "docker-compose down",
+    "setup": "pnpm install && pnpm db:up && pnpm migrate"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.0",
+    "turbo": "^1.12.0"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alizafar/devmaster-ai.git"
+  },
+  "keywords": [
+    "developer-tools",
+    "productivity",
+    "ai",
+    "project-management",
+    "open-source",
+    "kanban",
+    "notes",
+    "analytics"
+  ]
+}
