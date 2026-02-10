@@ -43,7 +43,7 @@ Enhancement suggestions are tracked as GitHub issues. Include:
 
 ```bash
 # Clone your fork
-git clone https://github.com/your-username/devmaster-ai.git
+git clone https://github.com/AliZafar780/devmaster-ai.git
 cd devmaster-ai
 
 # Install dependencies
