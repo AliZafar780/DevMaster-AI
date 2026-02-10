@@ -30,7 +30,7 @@ Created by [Ali Zafar](https://github.com/alizafar) | Open Source | Completely F
 
 ## 🌟 Overview
 
-**DevMaster AI** is a 100x enhanced, production-ready web application built as an ultimate all-in-one platform for developers. It serves developers, freelancers, teams, and enterprises to:
+**DevMaster AI** is a web application built as an ultimate all-in-one platform for developers. It serves developers, freelancers, teams, and enterprises to:
 
 - 📊 **Track Progress** - Advanced Kanban boards with AI-powered predictions
 - 📝 **Manage Notes** - Rich-text editor with semantic search and AI assistance
@@ -331,7 +331,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2024 Ali Zafar
+Copyright (c) 2026 Ali Zafar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -356,9 +356,7 @@ copies or substantial portions of the Software.
 
 ## 📞 Support
 
-- 📧 Email: support@devmaster.ai
-- 💬 Discord: [Join our community](https://discord.gg/devmaster)
-- 🐦 Twitter: [@DevMasterAI](https://twitter.com/DevMasterAI)
+- 📧 Email: alizafarbati@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/alizafar/devmaster-ai/issues)
 
 ---
