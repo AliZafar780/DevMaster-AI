@@ -7,19 +7,19 @@ class Settings(BaseSettings):
     # App
     APP_NAME: str = "DevMaster AI"
     DEBUG: bool = False
-    SECRET_KEY: str = "your-secret-key-change-in-production"
+    SECRET_KEY: str = ""
     
     # CORS
     ALLOWED_HOSTS: List[str] = ["http://localhost:3000", "http://localhost:5173"]
     
     # Database
-    DATABASE_URL: str = "postgresql+asyncpg://devmaster:devmaster_secret@localhost:5432/devmaster"
+    DATABASE_URL: str = ""
     
     # Redis
     REDIS_URL: str = "redis://localhost:6379/0"
     
     # MongoDB
-    MONGODB_URL: str = "mongodb://devmaster:devmaster_secret@localhost:27017/devmaster?authSource=admin"
+    MONGODB_URL: str = ""
     
     # JWT
     JWT_ALGORITHM: str = "HS256"
@@ -28,8 +28,8 @@ class Settings(BaseSettings):
     
     # MinIO/S3
     MINIO_ENDPOINT: str = "localhost:9000"
-    MINIO_ACCESS_KEY: str = "devmaster"
-    MINIO_SECRET_KEY: str = "devmaster_secret_key"
+    MINIO_ACCESS_KEY: str = ""
+    MINIO_SECRET_KEY: str = ""
     MINIO_BUCKET: str = "devmaster-files"
     
     # AI/ML
